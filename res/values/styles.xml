@@ -1,0 +1,15 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    
+    <!-- 没有默认背景颜色和actionbar的主题的主题 -->
+    <style name="NoBackAndActionbarTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+</resources>
